@@ -1,0 +1,14 @@
+{
+  "name": "maxmind-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dmitry Rodin <madiedinro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro -p ${PORT:-8080}"
+  },
+  "dependencies": {
+    "maxmind": "^2.5.0",
+    "micro": "^9.1.4"
+  }
+}
